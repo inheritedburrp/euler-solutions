@@ -1,4 +1,4 @@
 euler-solutions
 ===============
 
-solutions to euler problems
+solutions to euler problems in pyth
