@@ -1,4 +1,4 @@
 euler-solutions
 ===============
 
-solutions to euler problems in pyth
+solutions to euler problems in python just for the backup
