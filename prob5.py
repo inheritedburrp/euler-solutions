@@ -1,5 +1,3 @@
-import time
- 
 def evenlyDivisible(n):
     counter = 0
     for i in range(1, 21):
