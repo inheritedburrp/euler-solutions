@@ -10,3 +10,11 @@ def get_divisors(number):
  
     return len([1, number] + tlist)
  
+def triangle_nums():
+    iterator = 7
+    num = 28
+ 
+    while True:
+        yield num
+        iterator += 1
+        num += iterator
