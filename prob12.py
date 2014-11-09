@@ -18,3 +18,11 @@ def triangle_nums():
         yield num
         iterator += 1
         num += iterator
+ 
+if __name__ == "__main__":
+    tn = triangle_nums()
+    for t in tn:
+        tl = get_divisors(t)
+        if tl > 500:
+            print "num: %d\ncount: %d" % (t,tl)
+            break
